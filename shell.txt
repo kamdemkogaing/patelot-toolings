@@ -1,0 +1,106 @@
+nvm use 14.21.2
+nvm use 18.16.1
+nvm use 18.17.0
+
+nvm install 19.3.0
+npm install -g npm@8.19.4
+
+git fetch origin
+git remote set-head origin -a
+git merge origin develop
+git stash pop
+git stash
+git merge feature/patelot
+
+git branch -D  feature/patelot
+git push origin --delete  feature/patelot
+
+git restore .
+
+git fetch && git checkout  feature/patelot
+git checkout -b feature/patelot
+git push --set-upstream origin feature/patelot
+git pull origin develop --allow-unrelated-histories
+
+ssh-keygen -t rsa -b 4096 -C "your@email.address"
+ssh-keygen -t ed25519 -C "your@email.address"
+
+eval `ssh-agent -s`
+ssh-add ~/.ssh/patelot_project
+ssh-add ~/.ssh/id_rsa
+
+//lg
+@media screen and (min-width: 1024px) {
+	
+}
+
+//md
+@media screen and (min-width: 580px) and (max-width: 1024px) {
+		
+}
+
+//sm
+@media screen and (min-width: 0) and (max-width: 580px) {
+	
+}
+
+mv .npmrc .npmrc.bak
+--------------------
+
+https://github.com/facebook/create-react-app
+npx create-react-app [my-app] --template typescript
+
+https://create-react-app.dev/docs/adding-typescript
+https://tailwindcss.com/docs/guides/create-react-app
+
+http://www.pustefix-framework.org
+https://qooxdoo.org
+
+https://www.youtube.com/watch?v=JhMFAh5FgKU
+React App on Github | Using Git to set up our React App on Github
+
+https://www.youtube.com/watch?v=h2a0cSC1Vz8
+Apprendre REACTJS en 1h.
+
+https://tailwindcss.com/docs/flex-wrap
+https://mui.com/material-ui/api/modal
+
+Apprendre Javascript de A à Z – Le DOM
+https://www.youtube.com/watch?v=WHodDEhcu-I
+
+Apprendre TYPESCRIPT en 1 HEURE
+https://www.youtube.com/watch?v=2LV9qGNpPwQ&t=7s
+
+Configure VSCode
+https://www.youtube.com/watch?v=ve1xVEVlduI&t=645s
+
+All useEffect Mistakes Every Junior React Developer Makes
+https://www.youtube.com/watch?v=QQYeipc_cik
+
+React Tutorial for Beginners
+https://www.youtube.com/watch?v=SqcY0GlETPk
+
+Tutoriel TailwindCSS en 1 HEURE
+https://www.youtube.com/watch?v=UgIvT5L92Rg&t=44s
+
+TypeScript Tutorial for Beginners
+https://www.youtube.com/watch?v=d56mG7DezGs
+
+useSWR
+https://refine.dev/blog/data-fetching-next-js-useswr/#data-fetching-with-swr
+
+StoryBook
+https://www.youtube.com/watch?v=CLwX9EWlWJM
+
+LANCEZ VOUS AVEC LE FRAMEWORK ANGULAR !
+https://www.youtube.com/watch?v=vr8-bSIT9iE
+
+COURS React COMPLET pour 2024 : Maîtrise React en 4 heures
+https://www.youtube.com/watch?v=eKYkDqHohrw&t=4474s
+
+daisyUI
+https://daisyui.com
+
+
+----------------------------------------------------------------
+
